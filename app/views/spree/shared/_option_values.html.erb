@@ -1,6 +1,7 @@
 <% cache base_cache_key + [ot_downcase_name, params_ot_downcase_name, filtering_params_cache_key, @taxon&.id] do %>
   <% selected_option_values = params_ot_downcase_name&.split(',')&.map(&:to_i) || [] %>
   <% option_type.option_values.each do |option_value| %>
+    <% next unless option_value.variants.where(deleted_at: nil).count > 0 && option_value.variants.any? {|variant| variant.in_stock?} %>
     <% id = option_value.id %>
     <% name = option_value.name %>
 

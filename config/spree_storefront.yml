@@ -1,65 +1,67 @@
 default:
   navigation:
-    - title: Women
+    - title: Fruits
       subtitle: Categories
-      url: /t/women
+      url: /t/fruits
       items:
-        - :title: Skirts
-          :url: /t/women/skirts
-        - :title: Dresses
-          :url: /t/women/dresses
-        - :title: Shirts and Blouses
-          :url: /t/women/shirts-and-blouses
-        - :title: Sweaters
-          :url: /t/women/sweaters
-        - :title: Tops and T-shirts
-          :url: /t/women/tops-and-t-shirts
-        - :title: Jackets and Coats
-          :url: /t/women/jackets-and-coats
+        - :title: Pomes
+          :url: /t/fruits/pomes
+        - :title: Drupes
+          :url: /t/fruits/drupes
+        - :title: Berries
+          :url: /t/fruits/berries
+        - :title: Melons
+          :url: /t/fruits/melons
+        - :title: Citrus
+          :url: /t/fruits/citrus
+        - :title: Tropical
+          :url: /t/fruits/tropical
       promo_banners:
         - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
+          title: Season Special
+          url: /t/new-collection/season-special
           image: 'meganav/promo_banner_left-first-category.jpg'
         - subtitle: Special Offers
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-first-category.jpg'
-    - title: Men
+    - title: Vegetables
       subtitle: Categories
-      url: /t/men
+      url: /t/vegetables
       items:
-        - :title: Shirts
-          :url: /t/men/shirts
-        - :title: T-shirts
-          :url: /t/men/t-shirts
-        - :title: Sweaters
-          :url: /t/men/sweaters
-        - :title: Jackets and Coats
-          :url: /t/men/jackets-and-coats
+        - :title: Bulbs
+          :url: /t/vegetables/bulbs
+        - :title: Root and Tubers
+          :url: /t/vegetables/root-and-tubers
+        - :title: Stem
+          :url: /t/vegetables/stem
+        - :title: Leaf
+          :url: /t/vegetables/leaf
       promo_banners:
         - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
+          title: Season Special
+          url: /t/new-collection/season-special
           image: 'meganav/promo_banner_left-second-category.jpg'
         - subtitle: Special Offers
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-second-category.jpg'
-    - title: Sportswear
+    - title: Exotic Vegetables
       subtitle: Categories
-      url: /t/sportswear
+      url: /t/exotic-vegetables
       items:
-        - :title: Tops
-          :url: /t/sportswear/tops
-        - :title: Sweatshirts
-          :url: /t/sportswear/sweatshirts
-        - :title: Pants
-          :url: /t/sportswear/pants
+        - :title: Broccoli
+          :url: /t/exotic-vegetables/broccoli
+        - :title: Baby corn
+          :url: /t/exotic-vegetables/baby-corn
+        - :title: Bell peppers
+          :url: /t/exotic-vegetables/bell-peppers
+          :title: Celery
+          :url: /t/exotic-vegetables/celery
       promo_banners:
         - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
+          title: Season Special
+          url: /t/new-collection/season-special
           image: 'meganav/promo_banner_left-third-category.jpg'
         - subtitle: Special Offers
           title: Get up to 30% off
