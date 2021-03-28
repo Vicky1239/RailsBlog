@@ -29,3 +29,8 @@ end
 # Spree::Api::Dependencies.storefront_cart_serializer = 'MyRailsApp::CartSerializer'
 
 Spree.user_class = "Spree::User"
+
+Spree::Config do |config|
+  config.spree_site_name = "Spree Demo Site"
+  config.logo = "logo/logo.png"
+end
