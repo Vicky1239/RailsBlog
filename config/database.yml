@@ -14,7 +14,7 @@ default: &default
   encoding: utf8mb4
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: vikas
-  password:
+  password: admin123
   socket: /var/run/mysqld/mysqld.sock
 
 development:
@@ -48,7 +48,13 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: RailsBlog_production
-  username: RailsBlog
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see Rails configuration guide
+  # https://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: postgres
+  password: admin123
+  database: vikasMart_production
+  username: vikas
   password: <%= ENV['RAILSBLOG_DATABASE_PASSWORD'] %>

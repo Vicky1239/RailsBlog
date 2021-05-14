@@ -30,7 +30,6 @@ end
 
 Spree.user_class = "Spree::User"
 
-Spree::Config do |config|
-  config.spree_site_name = "Spree Demo Site"
+Spree.config do |config|
   config.logo = "logo/logo.png"
 end
